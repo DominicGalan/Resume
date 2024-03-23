@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+/*ALL*/
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header Styles */
+header::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+  height: 100%;
+  padding: 20px;
+  background-color: rgb(178, 219, 255);
+  color: rgb(97, 97, 97);
+  text-align: left;
+  flex-wrap: 60%;
+  font-size: 250%;
+  margin-left: 40%;
+}
+h2 > p{
+  font-size: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+h3{
+  height: 100%; 
+  padding: 20px;
+  background-color: rgb(82, 82, 82);
+  color: rgb(178, 219, 255);
+  text-align: left;
+  flex-wrap: 60%;
+  font-size: 150%;
+  margin-left: 40%;
+}
+h3 > p{
+  font-size: 70%;
+  padding-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  width: 40%; 
+  padding: 30px;
+  height: 100%;
+  background-color: rgb(178, 219, 255);
+  color: rgb(97, 97, 97);
+  text-align: left;
+  font-size: 150%;
+}
+h4 > ul{
+  font-size: 70%;
+}
+
+/*Picture*/
+.Imyself {
+  width: 40%;
+  height: 351px;
+  background-image: url(C:\Users\Jonathan\OneDrive\Desktop\webdev\REACT\my-resume\src\profile.jpg);
+  background-size: cover;
+  float: left;
+}
+
+/* Links Styles */
+a:link {
+  color: rgb(93, 165, 93);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(7, 135, 240);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 183, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*2nd Section*/
+/*Nav*/
+h7{
+  font-size: 25px;
+  color: rgb(178, 219, 255);
+  font-style: bold;
+
+}
+
+h8{
+  font-size: 25px;
+  color: rgb(178, 219, 255);
+  font-style: bold;
+}
+
+/*Article*/
+article {
+  float: right;
+  width: 60%;
+  height: 450px; 
+  background: rgb(178, 219, 255);
+  padding: 20px 20px 36% 20px;
+  color: rgb(97, 97, 97);
+}
+
+h5{
+  font-size:20px;
+  color: rgb(97, 97, 97);
+
+}
+
+h9{
+  font-size:20px;
+  color: rgb(97, 97, 97);
+
+}
+h10{
+  font-size:20px;
+  color: rgb(97, 97, 97);
+
+}
+h11{
+  font-size:27px;
+  color: rgb(97, 97, 97);
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
